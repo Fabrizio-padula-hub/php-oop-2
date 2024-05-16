@@ -8,8 +8,8 @@ $emporium->setCategory('Cani');
 $emporium->genre = 'Negozio di animali';
 $emporium->year = 2009;
 
-$products = new Products('Monge', 'Via capitolini, 8');
-$products->brand = 'Monge';
+$products = new Products('Dog-Cat Shop', 'Via capitolini, 8', 9.99);
+$products->setCategory('Cani');
 
 var_dump($emporium);
 var_dump($products)
